@@ -1,0 +1,15 @@
+.item{
+    cursor: pointer;
+}
+
+
+.item-caption{
+    background-color: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    
+    
+}
