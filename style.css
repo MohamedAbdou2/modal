@@ -15,7 +15,7 @@
 }
 
 #lightboxcontainer{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -28,6 +28,10 @@
 }
 
 #lightbox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 70vh;
     width: 50%;
     background-image: url("./images/car-1.jpg");
@@ -36,3 +40,15 @@
     background-position: center center;
 
 } 
+
+#closeBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#lightbox i{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
